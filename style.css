@@ -6,6 +6,7 @@
 
 :root {
   font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -17,7 +18,13 @@ body {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+em {
+  font-style: italic;
 }
 
 
@@ -75,14 +82,36 @@ p {
 
 .call-to-action {
   height: 300px;
-  font-size: 2.4rem;
-  font-weight: 600;
   padding-top: 80px;
   padding-left: 47px;
   max-width: 800px;
 }
 
-.form-container {
+.form-section {
   background-color: #fff;
   height: 300px;
+  padding-left: 47px;
+  padding-top: 20px;
+}
+
+input {
+  font-size: 2rem;
+  border: 2px solid #EDEEF1;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #7B97E8;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2A3441;
 }
