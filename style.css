@@ -47,6 +47,7 @@ em {
 .window-left .img-attribution {
   position: absolute;
   bottom: 16px;
+  font-weight: normal;
 }
 
 
@@ -98,6 +99,7 @@ input {
   font-size: 2rem;
   border: 2px solid #EDEEF1;
   border-radius: 3px;
+  margin-bottom: 20px;
 }
 
 input:focus {
@@ -107,11 +109,18 @@ input:focus {
 
 form {
   margin-top: 10px;
+  display: flex;
+  gap: 75px;
 }
 
 label {
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #2A3441;
+  margin-bottom: 5px;
+}
+
+label,input {
+  display: block;
 }
