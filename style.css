@@ -95,32 +95,16 @@ em {
   padding-top: 20px;
 }
 
-input {
+label, input {
+  display: block;
   font-size: 2rem;
-  border: 2px solid #EDEEF1;
-  border-radius: 3px;
-  margin-bottom: 20px;
-}
-
-input:focus {
-  outline: none;
-  border-color: #7B97E8;
 }
 
 form {
   margin-top: 10px;
+  width: 800px;
   display: flex;
-  gap: 75px;
-}
-
-label {
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: #2A3441;
-  margin-bottom: 5px;
-}
-
-label,input {
-  display: block;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 10px;
 }
